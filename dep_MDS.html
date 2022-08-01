@@ -26,7 +26,23 @@
     <link rel="stylesheet" href="./css/department.css">
     <link rel="stylesheet" href="./css/Style.css">
 
+<style>
+    .btn-group1{
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    }
 
+/* Style the active class, and buttons on mouse-over */
+    .active, .btn-group1:hover {
+    background-color: #40E0D0;
+   color: white;
+    }
+
+</style>
 </head>
 
 <body>
@@ -50,13 +66,13 @@
 
 <div class="topnav" id="myTopnav" >
 
-    <a href="index.php" class="active">Home</a>
+    <a href="index.html">Home</a>
     <div class="dropdown">
         <button class="dropbtn">Staff
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="Academic_staff_MDS.html">Academic Staff</a>
+            <a href="Academic_staff_MDS.html" class="active">Academic Staff</a>
             <a href="#">Temporary Academic Staff</a>
             <a href="Non_academic_staff_ MDS.html">NonAcademic Staff</a>
         </div>

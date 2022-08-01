@@ -9,7 +9,7 @@
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Welcome to Faculty of Technology | University of Ruhuna</title>
+    <title>Welcome to Department of BST | Faculty of Technology</title>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
@@ -23,12 +23,11 @@
     <link rel="stylesheet" href="./css/aos.css">
 
     <!-- Custom Style   -->
-    <link rel="stylesheet" href="./css/vacancies.css">
+    <link rel="stylesheet" href="./css/department.css">
     <link rel="stylesheet" href="./css/Style.css">
 
 <style>
-
-.btn-group1{
+    .btn-group1{
      border: none;
      outline: none;
      padding: 10px 16px;
@@ -44,7 +43,6 @@
     }
 
 </style>
-
 </head>
 
 <body>
@@ -66,47 +64,23 @@
     </div>
 </div>
 
-<div class="topnav" id="myTopnav">
+<div class="topnav" id="myTopnav" style="background:RGB(128,128,0)">
 
     <a href="index.html">Home</a>
-    <a href="aboutus.html">About Us</a>
     <div class="dropdown">
-        <button class="dropbtn">Departments
+        <button class="dropbtn">Staff
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="dep_ET.html">Engineering Technology</a>
-            <a href="department1.php">Information & Communication  Technology</a>
-            <a href="dep_BST.html">Biosystems Technology</a>
-            <a href="dep_MDS.html">Multidisciplinary Studies</a>
+            <a href="Academic_staff_BST.html" class="active">Academic Staff</a>
+            <a href="Temporary_academic_staff_BST.html">Temporary Academic Staff</a>
+            <a href="Non_academic_staff_BST.html">NonAcademic Staff</a>
         </div>
     </div>
-    <div class="dropdown">
-        <button class="dropbtn">Degree Programs
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="degree.html"> Bachelor of Engineering Technology Honours</a>
-              <a href="degree-ict.html">Bachelor of Information & Communication Technology Honours</a>
-            <a href="degree-bst.html">Bachelor of Biosystems Technology Honours</a>
-         </div>
-    </div>
-    <a href="Vacancies.html" class="active">Vacancies</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a>
-<?php if(isset($_SESSION['user_name'])){ ?>
-<div class="dropdown">
-        <button class="dropbtn">My Profile
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="view-profile.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">View My Profile</a>
-            <a href="logout.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">Logout</a>
-        </div>
-    </div>
+    <a href="newsAndEvents.html">News & Events</a>
+    <a href="research.html">Research</a>
+    <a href="industry.html">Industry</a>
 
-
-<?php } ?>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myNavFunction()">&#9776;</a>
 </div>
 
@@ -114,56 +88,47 @@
 
 
 
+
 <!-- ---------------------------  Page Content --------------------------------------------- -->
+<main>
 
-<div class="wrapper">
-    <section class="left">
-        <table class="tbl">
-            <tr class="portrait">
-                <td>
-                    <img class= "img" src="./assets/uni/job.png" alt="job">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="post-title1">
-                        <a href="./assets/uni/ICT-Vacancy Advetisement _2020.10.29.pdf" style="color:#008080;">&#x26AB;Post of Temporary Lecturer / Demonstrator in Department of ICT- Closing Date: 13.11.2020</a>
-                        <br>
-                    </div>
-                </td>
-            </tr>
-            <br><br><br><br>
-            <tr>
-                <td>
-                    <div class="post-title1">
-                        <a href="./assets/uni//Vacancies for posts ofDemonstrators-BST_26.10.2020.pdf" style="color:#008080;">&#x26AB;Post of Temporary Demonstrator in Department of Biosystems Technology- Closing Date: 06.11.2020</a>
-                    </div>
-                </td>
-            </tr>
-        </table>
-
+    <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+            <br><br>
+            <h2>Department of Biosystems Technology</h2>
+            <p style="text-align:justify">Department of Biosystems Technology offers the Biosystems Technology Honours Degree Program where
+                it produces Bachelors of Biosystems Technology. Department will be established in well-equipped new buildings
+                at the Faculty of Technology at Karagoda Uyangoda, Kamburupitiya.<span id="dots">...</span><span id="more"style="text-align:justify" >
+                The curriculum of this degree programme focuses in producing Technologists with the knowledge and technical
+                    expertise in Biosystems in Agricultural, Biomedical, Bioprocessing and Environmental fields. Relevant knowledge
+                    in Basic Science and Statistics, Soft Sills, ICT knowledge, Entrepreneurship and Basic Management knowledge provide
+                    through relevant course units. This degree programme focus in providing broad knowledge in following specific areas.
+                        </span></p>
+            <button onclick="myFunction()" id="myBtn" class="btn">Read more</button>
+        </div>
     </section>
 
-    <section class="right">
-        <ul class="link">
-            <h2 class="caption">Other Faculties</h2>
-            <li class="item"><a href="http://www.agri.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Agriculture</a></li>
-            <li class="item"><a href="http://www.eng.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Engineering</a></li>
-            <li class="item"><a href="http://www.hss.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Humanities and Social.Sci.</a></li>
-            <li class="item"><a href="http://www.mgt.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Management and Finance</a></li>
-            <li class="item"><a href="http://www.medi.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Medicine</a></li>
-            <li class="item"><a href="http://www.sci.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Science</a></li>
-            <li class="item"><a href="http://www.fmst.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Fisheries and Marine Sci.</a></li>
-            <li class="item"><a href="http://www.ruh.ac.lk/_struct.php?link=_site/_academic/fgs.html">&nbsp;&nbsp;Faculty of Graduate Studies</a></li>
-            <li class="item"><a href="http://www.ahs.ruh.ac.lk/">&nbsp;&nbsp;Faculty of Allied Health Sciences</a></li>
+    <br><br>
+
+    <div class="main-content">
+        <h2>Main objectives of the program</h2>
+        <hr>
+        <p>
+            The main objectives, expected graduate attributes and programme outcomes are given under following sections respectively.
+            <br>
+        <ul>
+            <li>1. Agricultural systems & Food production: Developing new farming and industry machinery for the production and harvesting of raw materials for food and drinks.</li>
+            <li>2. Food Processing: Developing efficient systems and equipment to process, handle and package foodstuffs to ensure quality of taste, health and safety of production.</li>
+            <li>3. Biomaterials: Developing biomaterial production for the bio-energy and construction industries such as fuel crops or timber furniture.</li>
+            <li>4. Environmental Engineering: Developing renewable energy resources, designing systems for sustainable development and environmental protection and preservation including pollution control and recycling systems.</li>
         </ul>
+        </p>
+        <br>
+        <a href="http://www.tec.ruh.ac.lk/pages/BioSys_Syllabus.php">Course Structure - Biosystems Technology Honours(BST)</a>
+        <br><br>
+    </div>
 
-</div>
-</section>
-</div>
-
-
-
+</main>
 <!-- ------------x---------------  Page Content --------------------------x------------------- -->
 
 
@@ -196,9 +161,9 @@
                 <div class="place">
                     <i class="fas fa-address-book"></i>
                     <span class="text">&nbsp;&nbsp;Faculty of Technology,<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Ruhuna,<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karagoda Uyangoda,<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matara</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Ruhuna,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karagoda Uyangoda,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matara</span>
                 </div>
                 <div class="phone">
                     <i class="fas fa-phone"></i>
@@ -221,10 +186,6 @@
 </footer>
 
 <!-- -------------x------------- Footer --------------------x------------------- -->
-
-
-
-
 
 
 

@@ -27,7 +27,39 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/Style.css">
 
+    <style>
 
+    .btn-group1{
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    }
+
+/* Style the active class, and buttons on mouse-over */
+    .active, .btn-group1:hover {
+    background-color: #40E0D0;
+   color: white;
+    }
+
+       
+    .btn-group{
+        padding: 08px;
+        text-align: center;
+        /*text-decoration: none;
+        display: inline-block;*/
+        font-size: 5px;
+        
+        cursor: pointer;
+        border: none;
+        border: 0;
+        outline: none;
+        }
+         .btn-group {border-radius: 16px;}
+    </style>
+   
 
 </head>
 
@@ -43,10 +75,12 @@
                 <span class="ban2">University of Ruhuna</span>
             </p>
             <div class="buttons">
-                <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings(LEARN)</a></button>
+                <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank"  text-align: center><input type="image" src="zoom-logo.png"  height="25" width="45"/> </a></button>
                 <button class="btn-group"><a href="http://teclms.ruh.ac.lk/moodle/"  target="_blank">LMS</a></button>
                 <button class="btn-group"><a href="http://paravi.ruh.ac.lk/tecmis/" target="_blank">TECMIS</a></button>
                 <button class="btn-group"><a href="./assets/uni/Intercom.pdf" target="_blank">INTERCOM</a></button>
+                <button class="btn-group"><a href="https://www.ruh.ac.lk/index.php/en/"> <input type="image" src="logo_ruhuna.png"  height="25" width="45"/> </a>
+                   <!--- <img alt="Ruhuna" src="logo_ruhuna.png" width="10" height="10"></button>-->
             </div>
         </div>
 
@@ -56,7 +90,7 @@
     <div class="topnav" id="myTopnav">
 
         <a href="index.html" class="active">Home</a>
-        <a href="aboutus.html">About Us</a>
+        <a href="aboutus.html" class="btn-group2">About Us</a>
         <div class="dropdown">
             <button class="dropbtn">Departments
                 <i class="fa fa-caret-down"></i>

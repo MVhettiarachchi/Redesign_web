@@ -43,7 +43,7 @@
                 <span class="ban2">University of Ruhuna</span>
             </p>
             <div class="buttons">
-                <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings(LEARN)</a></button>
+                <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings</a></button>
                 <button class="btn-group"><a href="http://teclms.ruh.ac.lk/moodle/"  target="_blank">LMS</a></button>
                 <button class="btn-group"><a href="http://paravi.ruh.ac.lk/tecmis/" target="_blank">TECMIS</a></button>
                 <button class="btn-group"><a href="./assets/uni/Intercom.pdf" target="_blank">INTERCOM</a></button>
@@ -55,7 +55,7 @@
 
     <div class="topnav" id="myTopnav">
 
-        <a href="index.php" class="active">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="aboutus.html">About Us</a>
         <div class="dropdown">
             <button class="dropbtn">Departments
@@ -79,8 +79,8 @@
              </div>
         </div>
         <a href="Vacancies.html">Vacancies</a>
-        <a href="contact.php">Contact Us</a>
-        <!-- <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a> -->
+        <a href="contact.html">Contact Us</a>
+        <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a>
  <?php if(isset($_SESSION['user_name'])){ ?>
  <div class="dropdown">
             <button class="dropbtn">My Profile

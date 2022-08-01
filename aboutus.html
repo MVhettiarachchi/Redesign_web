@@ -26,79 +26,97 @@
     <link rel="stylesheet" href="./css/Style.css">
     <link rel="stylesheet" href="./css/aboutus.css">
 
+<style>
 
+
+.btn-group2{
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    }
+
+/* Style the active class, and buttons on mouse-over */
+    .active, .btn-group2:hover {
+    background-color: #40E0D0;
+   color: white;
+    }
+</style>
 
 </head>
 
 <body>
 
-    <body>
+<!-- ----------------------------  Navigation ---------------------------------------------- -->
 
-        <!-- ----------------------------  Navigation ---------------------------------------------- -->
-        <div class="tab">
-       
-            <div class="text">
-                <p>
-                    <img src="./assets/uni/logoFac.jpg">
-                    <span class="ban1">Faculty of Technology</span>
-                    <span class="ban2">University of Ruhuna</span>
-                </p>
-                <div class="buttons">
-                    <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings(LEARN)</a></button>
-                    <button class="btn-group"><a href="http://teclms.ruh.ac.lk/moodle/"  target="_blank">LMS</a></button>
-                    <button class="btn-group"><a href="http://paravi.ruh.ac.lk/tecmis/" target="_blank">TECMIS</a></button>
-                    <button class="btn-group"><a href="./assets/uni/Intercom.pdf" target="_blank">INTERCOM</a></button>
-                </div>
-            </div>
-    
-    
+<div class="tab">
+    <div class="text">
+        <p>
+            <img src="./assets/uni/logoFac.jpg">
+            <span class="ban1">Faculty of Technology</span>
+            <span class="ban2">University of Ruhuna</span>
+        </p>
+        <div class="buttons">
+            <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings(LEARN)</a></button>
+            <button class="btn-group"><a href="http://teclms.ruh.ac.lk/moodle/"  target="_blank">LMS</a></button>
+            <button class="btn-group"><a href="http://paravi.ruh.ac.lk/tecmis/" target="_blank">TECMIS</a></button>
+            <button class="btn-group"><a href="./assets/uni/Intercom.pdf" target="_blank">INTERCOM</a></button>
         </div>
-    
-        <div class="topnav" id="myTopnav">
-    
-            <a href="index.php" class="active">Home</a>
-            <a href="aboutus.html">About Us</a>
-            <div class="dropdown">
-                <button class="dropbtn">Departments
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="dep_ET.html">Engineering Technology</a>
-                    <a href="department1.php">Information & Communication  Technology</a>
-                    <a href="dep_BST.html">Biosystems Technology</a>
-                    <a href="dep_MDS.html">Multidisciplinary Studies</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Degree Programs
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="degree.html"> Bachelor of Engineering Technology Honours</a>
-                      <a href="degree-ict.html">Bachelor of Information & Communication Technology Honours</a>
-                    <a href="degree-bst.html">Bachelor of Biosystems Technology Honours</a>
-                 </div>
-            </div>
-            <a href="Vacancies.html">Vacancies</a>
-            <a href="contact.php">Contact Us</a>
-            <!-- <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a> -->
-     <?php if(isset($_SESSION['user_name'])){ ?>
-     <div class="dropdown">
-                <button class="dropbtn">My Profile
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="view-profile.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">View My Profile</a>
-                    <a href="logout.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">Logout</a>
-                </div>
-            </div>
-    
-    
-    <?php } ?>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myNavFunction()">&#9776;</a>
+    </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+
+    <a href="index.html" >Home</a>
+    <a href="aboutus.html" class="active">About Us</a>
+    <div class="dropdown">
+        <button class="dropbtn">Departments
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="dep_ET.html">Engineering Technology</a>
+            <a href="department1.php">Information & Communication  Technology</a>
+            <a href="dep_BST.html">Biosystems Technology</a>
+            <a href="dep_MDS.html">Multidisciplinary Studies</a>
         </div>
-    
-        <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Degree Programs
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="degree.html"> Bachelor of Engineering Technology Honours</a>
+              <a href="degree-ict.html">Bachelor of Information & Communication Technology Honours</a>
+            <a href="degree-bst.html">Bachelor of Biosystems Technology Honours</a>
+         </div>
+    </div>
+    <a href="Vacancies.html">Vacancies</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a>
+<?php if(isset($_SESSION['user_name'])){ ?>
+<div class="dropdown">
+        <button class="dropbtn">My Profile
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="view-profile.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">View My Profile</a>
+            <a href="logout.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">Logout</a>
+        </div>
+    </div>
+
+
+<?php } ?>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myNavFunction()">&#9776;</a>
+</div>
+
+
+<!--------new-->
+
+<!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+
 
 
 <!-- ---------------------------  Page Content --------------------------------------------- -->
