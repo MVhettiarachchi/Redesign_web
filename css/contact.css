@@ -1,0 +1,338 @@
+/*-----------------page content------------------------*/
+
+.wrapper {
+    display: flex;
+}
+
+.left {
+    margin-top: -70px;
+    width: 55%;
+    padding: 100px;
+}
+
+.right {
+    margin-top: -70px;
+    width: 45%;
+    padding: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.left .map p,
+.left p {
+    font-family: var(--Lexend);
+    font-size: 16px;
+}
+
+
+/* Zebra striping */
+
+tr:nth-of-type(odd) {
+    background: #e6ffff;
+}
+
+th {
+    background: var(--theme);
+    color: white;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 6px;
+    border: 1px solid #e6ffff;
+    text-align: left;
+    font-family: var(--Lexend);
+    font-size: 16px;
+}
+
+
+/* --------------- top links ----------------- */
+
+.link .item::before,
+.sublink .subitem::before {
+    content: ' \02C3';
+    font-weight: bolder;
+}
+
+.link .itemClicked::before {
+    content: ' \02C5';
+    font-weight: bolder;
+}
+
+.link .caption {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-family: var(--Lexend);
+}
+
+.link .item,
+.link .item a,
+.sublink .subitem,
+.sublink .subitem a,
+.link,
+.sublink,
+.link .itemClicked,
+.link .itemClicked a {
+    line-height: 250%;
+    color: var(--theme);
+}
+
+.link .item:hover,
+.link .item:hover a,
+.sublink .subitem:hover,
+.sublink .subitem:hover a {
+    color: var(--bg-color);
+    font-weight: 120%;
+    background-color: #e0ebeb;
+}
+
+
+/* -------x-------- top links -------x---------- */
+
+
+/*--------x---------page content------------x------------*/
+
+/* ------------Page Content------------------- */
+
+@media only screen and (max-width:750px) {
+    .wrapper {
+        display: block;
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+    .left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .wrapper {
+        margin-top: -250px;
+        display: inherit;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .left {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .wrapper {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .left {
+        margin-top: -200px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .wrapper {
+        margin-top: -200px;
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    .left {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+/* ------------Logo and content------------------- */
+
+@media only screen and (min-width: 120px) {
+    .left {
+        margin-top: 300px;
+    }
+    .right {
+        margin-top: -200px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .wrapper {
+        margin-top: -180px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .wrapper {
+        margin-top: -220px;
+    }
+    .right{
+        margin-top:-130px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .wrapper {
+        margin-top: -200px;
+    }
+    .left .address p {
+        position: block;
+    }
+
+    .right {
+        margin-top: -150px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+    .topnav {
+        margin-top: 130px;
+    }
+    .ban1 {
+        font-size: 25px;
+    }
+    .ban2 {
+        margin-left: -60px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .tab {
+        height: 20vh;
+    }
+    .wrapper {
+        margin-top: -200px;
+    }
+    .right{
+        margin-top:-120px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .wrapper {
+        margin-top: -160px;
+    }
+    .right {
+        margin-top: 250px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .tab {
+        height: 25vh;
+    }
+    .wrapper {
+        margin-top: -120px;
+    }
+    .right {
+        margin-top: 250px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .wrapper {
+        margin-top: 180px;
+    }
+    .left {
+        margin-top: -20px;
+    }
+    .right {
+        margin-top: -70px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1900px) {
+    .wrapper {
+        margin-top: 200px;
+    }
+
+}
+
+
+
+/*------------table ----------------*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*
+	Label the data
+	*/
+    td:nth-of-type(1):before {
+        content: "Department";
+    }
+    td:nth-of-type(2):before {
+        content: "Name of HoD";
+    }
+    td:nth-of-type(3):before {
+        content: "Contact Number";
+    }
+}

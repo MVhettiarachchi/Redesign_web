@@ -1,0 +1,334 @@
+/*-----------------page content------------------------*/
+
+.wrapper{
+	margin-top:160px;
+    display: flex;
+}
+
+.left{
+   width: 55%;
+   padding: 100px ;
+}
+
+.right{
+   width: 45%;
+   padding: 100px;
+}
+
+.left .newsHeader{
+    font-size: 22px;
+    font-family: var(--Livic);
+    text-align: justify;
+    font-weight: bold;
+	color:#008080;
+    text-transform: uppercase;
+}
+
+.left .news .toggle-text-button{
+    background: var(--theme);
+    border: none;
+    font-family: var(--times);
+    font-size:1.2rem;
+}
+
+.left .news .head{
+    font-size: 18px;
+    font-family: var(--Livic);
+	color:black;
+    text-align: justify;
+}
+
+.left .news .toggle-text {
+    display: none;
+}
+
+.left .news .img{
+    width:550px;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+
+
+
+/* --------------- top links ----------------- */
+
+.link .item::before,
+.sublink .subitem::before{
+    content: ' \02C3';
+    font-weight: bolder;
+}
+
+.link .itemClicked::before{
+    content:' \02C5';
+    font-weight: bolder;
+}
+
+
+.link .caption{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-family: var(--Lexend);
+}
+
+
+.link .item,
+.link .item a,
+.sublink .subitem,
+.sublink .subitem a,
+.link, .sublink,
+.link .itemClicked,
+.link .itemClicked a{
+    line-height: 250%;
+    color: var(--theme);
+}
+
+
+.link .item:hover,
+.link .item:hover a,
+.sublink .subitem:hover,
+.sublink .subitem:hover a
+{
+    color: var(--bg-color);
+    font-weight: 120%;
+    background-color:#e0ebeb;
+}
+
+
+
+/* -------x-------- top links -------x---------- */
+
+
+/*--------x---------page content------------x------------*/
+
+
+/*anything below 750px this will be applied*/
+@media only screen and (max-width:750px){
+    .wrapper{
+        display: block;
+        margin-left: -70px;
+        margin-right:  -70px;
+    }
+
+    .left{
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+/*anything below 900px this will be applied*/
+@media only screen and (max-width:900px){
+    .wrapper{
+        margin-top: -250px;
+        display: inherit;
+        margin-left: -100px;
+        margin-right:  -100px;
+    }
+
+    .left{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+/*anything below 1300px this will be applied*/
+@media only screen and (max-width:1300px){
+    .wrapper{
+        margin-top: 0px;
+        margin-left: -80px;
+        margin-right:  -80px;
+    }
+
+    .left{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+/*---------Page------------------------*/
+   @media only screen and (min-width: 320px){
+
+  	.wrapper .left{
+		margin-top:70px;
+	}
+
+	.wrapper .left .newsHeader{
+		font-size:15px;
+	}
+
+	.right .sidecontent{
+		margin-top:-300px;
+	}
+   }
+
+   @media only screen and (min-width: 360px){
+	.wrapper{
+		margin-top:-40px;
+	}
+
+	.wrapper .left{
+		margin-top:70px;
+	}
+
+	.wrapper .left .newsHeader{
+		font-size:15px;
+	}
+
+	.right .sidecontent{
+		margin-top:-300px;
+	}
+   }
+
+
+
+  @media only screen and (min-width: 750px){
+    .right{
+        padding:-120px;
+    }
+
+	.right .sidecontent{
+		margin-top:-300px;
+	}
+
+	.wrapper .left{
+		margin-top:130px;
+	}
+  }
+
+
+   @media only screen and (min-width: 1200px){
+
+   .wrapper .right{
+	   margin-top:440px;
+   }
+
+   .wrapper .left{
+	   margin-top:170px;
+   }
+  }
+
+  @media only screen and (min-width: 1300px){
+
+	.wrapper{
+		margin-top:20px;
+	}
+
+  }
+
+  @media only screen and (min-width: 1400px){
+	.wrapper{
+		margin-top:60px;
+	}
+  }
+
+
+
+  /*anything below 750px this will be applied*/
+@media only screen and (max-width:750px){
+    .wrapper{
+        display: block;
+        margin-left: -70px;
+        margin-right:  -70px;
+    }
+
+    .left{
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+/*anything below 900px this will be applied*/
+@media only screen and (max-width:900px){
+    .wrapper{
+        margin-top: -250px;
+        display: inherit;
+        margin-left: -100px;
+        margin-right:  -100px;
+    }
+
+    .left{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+/*anything below 1300px this will be applied*/
+@media only screen and (max-width:1300px){
+    .wrapper{
+        margin-top: 0px;
+        margin-left: -80px;
+        margin-right:  -80px;
+    }
+
+    .left{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right{
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1900px){
+
+	.wrapper .left .newsHeader{
+		margin-top:1000px;
+	}
+
+  }

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome to Faculty of Technology | University of Ruhuna</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/degree.css">
+    <link rel="stylesheet" href="./css/Style.css">
+
+
+</head>
+
+<body>
+
+
+    <body>
+
+        <!-- ----------------------------  Navigation ---------------------------------------------- -->
+        <div class="tab">
+       
+            <div class="text">
+                <p>
+                    <img src="./assets/uni/logoFac.jpg">
+                    <span class="ban1">Faculty of Technology</span>
+                    <span class="ban2">University of Ruhuna</span>
+                </p>
+                <div class="buttons">
+                    <button class="btn-group"><a href="https://learn.zoom.us/"  target="_blank">Zoom Meetings(LEARN)</a></button>
+                    <button class="btn-group"><a href="http://teclms.ruh.ac.lk/moodle/"  target="_blank">LMS</a></button>
+                    <button class="btn-group"><a href="http://paravi.ruh.ac.lk/tecmis/" target="_blank">TECMIS</a></button>
+                    <button class="btn-group"><a href="./assets/uni/Intercom.pdf" target="_blank">INTERCOM</a></button>
+                </div>
+            </div>
+    
+    
+        </div>
+    
+        <div class="topnav" id="myTopnav">
+    
+            <a href="index.php" class="active">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">Departments
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="dep_ET.html">Engineering Technology</a>
+                    <a href="department1.php">Information & Communication  Technology</a>
+                    <a href="dep_BST.html">Biosystems Technology</a>
+                    <a href="dep_MDS.html">Multidisciplinary Studies</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Degree Programs
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="degree.html"> Bachelor of Engineering Technology Honours</a>
+                      <a href="degree-ict.html">Bachelor of Information & Communication Technology Honours</a>
+                    <a href="degree-bst.html">Bachelor of Biosystems Technology Honours</a>
+                 </div>
+            </div>
+            <a href="Vacancies.html">Vacancies</a>
+            <a href="contact.php">Contact Us</a>
+            <!-- <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a> -->
+     <?php if(isset($_SESSION['user_name'])){ ?>
+     <div class="dropdown">
+                <button class="dropbtn">My Profile
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="view-profile.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">View My Profile</a>
+                    <a href="logout.php/<?php echo $_SESSION['user_id'] ?>" style="color:#800000;">Logout</a>
+                </div>
+            </div>
+    
+    
+    <?php } ?>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myNavFunction()">&#9776;</a>
+        </div>
+    
+        <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+
+    <!-- ---------------------------  Page Content --------------------------------------------- -->
+
+    <main>
+
+        <!-- ---------------------- Site Content -------------------------->
+        <br><br>
+        <div class="main-content">
+
+            <div class="tabContent">
+                <p>Department of Biosystems Technology</p>
+            </div>
+            <br>
+            <h1><b>Bachelor of Biosystems Technology Honours</b></h1>
+            <hr>
+             
+                <h3>Main Objectives</h3>
+                
+                <ol>
+                	<li>To offer a quality degree programme for students who enter the university through
+Advanced Level Biosystems Technology stream. </li>
+                	<li>To produce graduates qualified to be professional Biosystems Technologists locally as well
+as internationally. </li>
+                	<li>To provide expertise to design, develop and manage Biosystems in modern working
+environment. </li>
+                	<li>To provide qualified manpower to enhance the productivity, quality, efficiency and
+sustainability of local industries through the use of relevant technologically developed
+Biosystems. </li>
+                	<li>To produce technologists with broad knowledge on Biosystems. </li>
+                	<li>To produce graduates qualified to teach in the Biosystems Technology streams in schools
+and in Technical Colleges and to transfer the knowledge in technology to the society. </li>
+                	
+                </ol>
+            
+            <h3> Specific objectives  </h3>
+            
+            <p>The curriculum of this degree programme focuses on producing Technologists with the
+knowledge and technical expertise on Biosystems in Agricultural, Biomedical, Bioprocessing
+and Environmental fields. Relevant knowledge on Basic Science and Statistics, soft skills, ICT,
+entrepreneurship and basic management would be provided through the relevant course units.
+This degree programme will focus on providing broad knowledge on the following specific
+areas. </p>
+
+ <ol type="i">
+ 	
+	<li>Agricultural systems & Food production: Developing new farming and industry
+	machinery for the production and harvesting of raw materials for food and beverages.</li>
+	
+	<li> Food Processing: Developing efficient systems and equipment to process, handle and to
+	ensure the quality and taste of the food and health and safety of production.</li>
+	<li> Biomaterials: Developing biomaterial production systems for the bio-energy and
+	construction industries such as fuel crops or timber for furniture.</li>
+	<li> Environmental Engineering: Developing renewable energy resources, designing systems
+	for sustainable development and environmental protection and preservation including
+	pollution control and recycling systems.</li>
+	<li> Research & testing: Developing and testing food production methods, testing products
+	and systems to ensure achievement of quality requirements.</li>
+</ol>
+            <br>
+            <br>
+            <h2>  Curriculum of The Degree of  Biosystems Technology Honours</h2>
+
+            <div class="table-content">
+            <p><b>Level 1 Semester 1</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>BST1112 - Information Technology I</td>
+                        <td rowspan="4">ENG1114 - English I (teaching – 4-hours per week )</td>
+				 	</tr>
+
+                    <tr>
+                        <td>BST1122 - Basic Mathematics</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>BST1132 - General Biology</td>
+                    </tr>
+
+                    <tr>
+                        <td>BST1142 - Plant Physiology</td>
+                        
+                    </tr>
+ 					<tr>
+                        <td>BST1152 - Animal Physiology</td>
+                        
+                    </tr>
+					<tr>
+                        <td>BST1171 - Analytical Chemistr </td>
+                        
+                    </tr>
+					<tr>
+                        <td>BST1181 - Thermodynamics </td>
+                        
+                    </tr>
+
+                </table>
+                
+                <p><b>Level 1 Semester 2</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT1213 – Database Management Systems</td>
+                        <td rowspan="5"> TMS1233 - Discrete Mathematics</td>   
+                        <td>ENG1222 - 	English II (teaching – 4-hours per week )
+                        </td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT1223 - System Analysis & Design and Usability</td>
+                        <td rowspan="3">TCS1212 - Fundamentals of Management</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT1232 - Computer Laboratory</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT1242	Management Information System</td>
+                        
+                    </tr>
+
+					<tr>
+                        <td>ICT1252	- Computer Architecture</td>
+                        
+                    </tr>
+
+                </table>
+                
+                <p><b>Level 2 Semester 1</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT2113	Data Structures and Algorithms</td>
+                        <td rowspan="5">- </td>   
+                        <td>ENG2122	English III</td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT2123 - Object Oriented Development</td>
+                        <td>TCS2112 - Business Economics</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT2133 - Object Oriented Analysis & Design</td>
+                        <td rowspan="3">TCS2122 - Soft Skills</td>
+                    </tr>
+
+                    
+					 <tr>
+                        <td>ICT2142 - Professional Issues in IT</td>
+                        
+                    </tr>
+					<tr>
+                        <td>ICT2153 - Internet Application Development</td>
+                        
+                    </tr>
+
+                </table>
+                 <p><b>Level 2 Semester 2</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT2213 - Operating System Concepts & Applications</td>
+                        <td rowspan="4">TMS2213 - Probability and Statistics </td>   
+                        <td>ENG2222 - English IV</td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT2223 - Computer Networks</td>
+                        <td rowspan="3">TCS2212	Accounting for Technologists</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT2233	- Software Engineering</td>
+                    </tr>
+
+                    
+					 <tr>
+                        <td>ICT2243	- E-Commerce Implementation, Management & Security</td>
+                        
+                    </tr>
+					
+
+                </table>
+                 <p><b>Level 3 Semester 1</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT3113 - Advanced Programming in Java/C++</td>
+                        <td rowspan="7">- </td>   
+                        <td>ENG3122	- English V</td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT3123 - IT Project Management</td>
+                        <td rowspan="6">TCS3131 - Human Resource Management</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT3132	Software Testing Methods and Tools</td>
+                    </tr>
+
+                    
+					 <tr>
+                        <td>ICT3142 - Mobile Computing Principles</td>
+                        
+                    </tr>
+					<tr>
+                        <td>ICT3152	- Human Computer Interaction</td>
+                    </tr>
+					<tr>
+                        <td>ICT3162	- Rapid and Agile Software Development</td>
+                    </tr>
+                    <tr>
+                        <td>ICT3173	- Group Project</td>
+                    </tr>
+                    
+                </table>
+                <p><b>Level 3 Semester 2</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT3213 - Advanced Database Management Systems</td>
+                        <td rowspan="7">- </td>   
+                        <td  rowspan="7">-</td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT3222	- Data Mining and Business Intelligence</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>ICT3233	- Mobile Application Development</td>
+                    </tr>
+
+                    
+					 <tr>
+                        <td>ICT3243	- Network, Computer and Application Security</td>
+                        
+                    </tr>
+					<tr>
+                        <td>ICT3253	- Distributed & Cloud Computing</td>
+                    </tr>
+					<tr>
+                        <td>ICT3262	- Software Verification and Quality Assurance</td>
+                    </tr>
+                    <tr>
+                        <td>ICT3273	- Advanced Database Management Systems</td>
+                    </tr>
+                </table>
+                <p><b>Level 4 Semester 1</b></p>
+                <table class="content-table  table-bordered ">
+                    <tr width="100%">
+                        <th >Information Technology Course Units</th>
+                        <th >Mathematics & Statistics Course Units</th>
+                        <th >Complementary Studies Course Units</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>ICT4316 - Research Project</td>
+                        <td >TCS4112 - Creativity, innovation and Entrepreneurship </td>   
+                        <td  rowspan="7">-</td>
+				 	</tr>
+
+                    <tr>
+                        <td>ICT4123 - Cloud Computing</td>
+                        <td >TCS4141 - Communication for Technologists</td>
+                    </tr>
+
+                    <tr>
+                        <td>ICT4133	- Artificial Intelligence</td>
+                        <td>TCS4151 - Industrial Sociology</td>
+                    </tr>
+
+                    
+					
+                </table>
+                  <p><b>Level 4 Semester 2</b></p>
+                  <p>ICT4216 : Industrial Training (6-months period) </p>
+            </div>
+        </div>
+    </main>
+    <!-- -----------x---------- Site Content -------------x------------>
+
+
+    <!-- ------------x---------------  Page Content --------------------------x------------------- -->
+
+
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="box" data-aos="fade-right" data-aos-delay="200">
+                <h2 class="footerHeader">WELCOME</h2>
+                <div class="content">
+                    <p class="welcome">Faculty of Technology is a leading faculty of University of Ruhuna in the region welcomes you to witness a truly unique experience!
+                    </p>
+                </div>
+            </div>
+
+            <div class="center box" data-aos="fade-right" data-aos-delay="200">
+                <h2 class="footerHeader">Departments</h2>
+                <div class="content">
+                    <ul id="list">
+                        <li><a href="department1.html">&nbsp;&nbsp;Information & Communication Technology</a></li>
+                        <li><a href="dep_ET.html">&nbsp;&nbsp;Engineering Technology</a></li>
+                        <li><a href="dep_BST.html">&nbsp;&nbsp;Biosystems Technology</a></li>
+                        <li><a href="dep_MDS.html">&nbsp;&nbsp;Multidisciplinary Studies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-delay="200">
+                <h2 class="footerHeader">Contact Us</h2>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-address-book"></i>
+                        <span class="text">&nbsp;&nbsp;Faculty of Technology,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Ruhuna,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karagoda Uyangoda,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matara</span>
+                    </div>
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <span class="text">&nbsp;&nbsp;041 - 3006138</span>
+                    </div>
+                    <div class="phone">
+                        <i class="fa fa-envelope-open"></i>
+                        <span class="text">&nbsp;&nbsp;dean@tec.ruh.ac.lk</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rights flex-row">
+            <h6 class="foot">
+                Copyright © 2020 Faculty of Technology. All rights Reserved.
+            </h6>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+
+
+
+
+<!-- Jquery Library file -->
+<script src="./js/Jquery3.4.1.min.js"></script>
+
+<!-- --------- Owl-Carousel js ------------------->
+<script src="./js/owl.carousel.min.js"></script>
+
+<!-- ------------ AOS js Library  ------------------------- -->
+<script src="./js/aos.js"></script>
+
+<!-- Custom Javascript file -->
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

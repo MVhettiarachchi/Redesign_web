@@ -1,0 +1,74 @@
+[
+  {
+    "name":"Dr. P. K. Subash Jayasinghe",
+    "designation":"Senior Lecturer Gr.II",
+    "email":"subash@ictec.ruh.ac.lk",
+    "contactNo":"041-2294742",
+    "intercomNo":"282",
+    "img": "./assets/uni/drsubash.png",
+    "page": "./PersonalProf_ICT/drSubash.html"
+  },
+  {
+    "name":"Ms. U. H. Waruni Hewage",
+    "designation":"Lecturer ( Probationary )",
+    "email":"waruni@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MsWaruni.png",
+    "page": "./PersonalProf_ICT/msWaruni.html"
+  },
+  {
+    "name":"Ms. M. A. N. D. Sewwandi",
+    "designation":"Lecturer ( Probationary )",
+    "email":"sewwandi@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MsSewwandi.png",
+    "page": "./PersonalProf_ICT/msSewwandi.html"
+  },
+  {
+    "name":"Mr. Nuwan Laksiri",
+    "designation":"Lecturer ( Probationary )",
+    "email":"phpnlaksiri@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"221",
+    "img": "./assets/uni/MrNuwan.jpg",
+    "page": "./PersonalProf_ICT/mrNuwan.html"
+  },
+  {
+    "name":"Ms. Iromi R. Paranavithana",
+    "designation":"Lecturer ( Probationary )",
+    "email":"iromi@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"222",
+    "img": "./assets/uni/Msiromi.jpg",
+    "page": "./PersonalProf_ICT/msIromi.html"
+  },
+  {
+    "name":"Ms. C. R. Liyanage",
+    "designation":"Lecturer ( Probationary )",
+    "email":"ravihari@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"223",
+    "img": "./assets/uni/MsRavihari.jpg",
+    "page": "./PersonalProf_ICT/msRavihari.html"
+  },
+  {
+    "name":"Ms. K. H. Jayani Imalka",
+    "designation":"Lecturer ( Probationary )",
+    "email":"jayani@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"225",
+    "img": "./assets/uni/MsJayani.jpg",
+    "page": "./PersonalProf_ICT/msJayani.html"
+  },
+  {
+    "name":"Ms. D. S. Vithanage",
+    "designation":"Lecturer ( Probationary )",
+    "email":"dinithi@ictec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"226",
+    "img": "./assets/uni/MsDinithi.jpg",
+    "page": "./PersonalProf_ICT/msDinithi.html"
+  }
+]

@@ -1,0 +1,431 @@
+
+/* ------------------ image slider ------------------------ */
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+
+.container .slider {
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.container .slider .slide {
+    position: relative;
+    width: 20%;
+    height: 90%;
+    float: left;
+}
+
+.container .slider .slide .caption {
+    position: absolute;
+    bottom: 60px;
+    left: 160px;
+    right: 160px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.container .slider .slide .caption h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    font-size: 32px;
+    transition: 0.5s;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.container .slider .slide .caption p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.container .slider .slide.slide1 {
+    background: url('../assets/uni/new1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide2 {
+    background: url('../assets/uni/drama2020.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide3 {
+    background: url('../assets/uni/tree_planting.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide4 {
+    background: url('../assets/uni/group.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    90% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+
+/* --------x---------- image slider -----------x------------- */
+
+
+/*-----------------page content------------------------*/
+
+.wrapper {
+    display: flex;
+}
+
+.left {
+    margin-top: -70px;
+    width: 55%;
+    padding: 100px;
+}
+
+.right {
+    width: 45%;
+    padding: 100px;
+}
+
+.left .newsHeader {
+    font-size: 28px;
+    font-family: var(--Lexend);
+    text-align: justify;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.left .news .toggle-text-button {
+    background: var(--theme);
+    border: none;
+    font-family: var(--times);
+    font-size: 1.2rem;
+    color:white;
+}
+
+.left .news a{
+    font-size: 19px;
+    font-family: var(--Livvic);
+    text-align: justify;
+}
+
+.left .news .toggle-text {
+    display: none;
+
+}
+
+.left .news .img {
+    width: 550px;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+
+/* --------------- top links ----------------- */
+.right .sidecontent .link .item a,
+.right .sidecontent .sublink .subitem a,
+.right .sidecontent .itemClicked a{
+    font-family:var(--Lexend);
+    font-size:16px;
+}
+
+.link .item::before,
+.sublink .subitem::before {
+    content: ' \02C3';
+    font-weight: bolder;
+}
+
+.link .itemClicked::before {
+    content: ' \02C5';
+    font-weight: bolder;
+}
+
+.link .caption {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-family: var(--Lexend);
+}
+
+.link .item,
+.link .item a,
+.sublink .subitem,
+.sublink .subitem a,
+.link,
+.sublink,
+.link .itemClicked,
+.link .itemClicked a {
+    line-height: 250%;
+    color: var(--theme);
+}
+
+.link .item:hover,
+.link .item:hover a,
+.sublink .subitem:hover,
+.sublink .subitem:hover a {
+    color: var(--bg-color);
+    font-weight: 120%;
+    background-color: #e0ebeb;
+}
+
+
+/* -------x-------- top links -------x---------- */
+
+
+/*--------x---------page content------------x------------*/
+
+
+
+
+/* ------------Page Content------------------- */
+
+@media only screen and (max-width:750px) {
+    .wrapper {
+        display: block;
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+    .left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .wrapper {
+        margin-top: -250px;
+        display: inherit;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .left {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .wrapper {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .left {
+        margin-top: -200px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .wrapper {
+        margin-top: -200px;
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    .left {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        margin-top: 180px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+/* ------------Image slider------------------- */
+
+@media screen and (max-width: 768px) {
+    .container .slider .slide .caption {
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        padding: 20px;
+    }
+    .container .slider .slide .caption h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+    }
+    .container .slider .slide .caption p {
+        color: #fff;
+        font-size: 12px;
+    }
+}
+
+
+/* ------------Logo------------------- */
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen and (min-width: 320px) {
+    .right{
+        margin-top:-130px;
+    }
+
+    .wrapper {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 360px) {
+    .wrapper {
+        margin-top: -250px;
+    }
+    .right{
+        margin-top:-130px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .wrapper {
+        margin-top: -250px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+    .wrapper {
+        margin-top: -250px;
+    }
+
+    .right{
+        margin-top:-130px;
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    .wrapper {
+        margin-top: -250px;
+    }
+    .right{
+        margin-top:-120px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        margin-top: -280px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        margin-top: -350px;
+    }
+
+    .right{
+        margin-top:170px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .left{
+        margin-top:220px;
+    }
+
+    .right{
+        margin-top:220px;
+    }
+
+    .wrapper{
+        margin-top:-350px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .wrapper {
+        margin-top: -100px;
+    }
+    .right{
+        margin-top:-70px;
+    }
+    .left{
+        margin-top:-70px
+    }
+
+}
+
+@media only screen and (min-width: 1900px) {
+    .wrapper {
+        margin-top: -100px;
+    }
+    .right{
+        margin-top:-70px;
+    }
+
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name":"Dr. (Mrs.) K. M. W. Rajawatta",
+    "designation":"Senior Lecturer Gr. II",
+    "email":"wathsala@btec.ruh.ac.lk",
+    "contactNo":"041 - 2294740",
+    "intercomNo":"243",
+    "img": "./assets/uni/DrWathsala.jpg",
+    "page": "./PersonalProf_BST/Drwathsala.html"
+  },
+  {
+    "name":"Prof. E. P. S. Chandana",
+    "designation":"Professor",
+    "email":"dvcepsc@admin.ruh.ac.lk / epschandana@btec.ruh.ac.lk",
+    "contactNo": "",
+    "intercomNo":"241",
+    "img": "./assets/uni/Prof.SamanChandana.jpg",
+    "page": "./PersonalProf_BST/Profchandana.html"
+  },
+  {
+    "name":"Dr. T. Karunarathna",
+    "designation":"Senior Lecturer Gr. II",
+    "email":"thissa@btec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"250",
+    "img": "./assets/uni/Dr.TKarunarathna.jpg",
+    "page": ""
+  },
+  {
+    "name":"Ms. W. M. C. S. Jayaweera",
+    "designation":"Lecturer ( Probationary )",
+    "email":"",
+    "contactNo":"",
+    "intercomNo":"249",
+    "img": "./assets/uni/Ms.champika.jpg",
+    "page": "./PersonalProf_BST/Msjayaweera.html"
+  },
+  {
+    "name":"Mr. H .A. C. Priyankara",
+    "designation":"Lecturer ( Probationary )",
+    "email":"chamila@btec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/Mr.HACPriyankara.jpg",
+    "page": ""
+  },
+  {
+    "name":"Ms. M. S. Jayathilaka",
+    "designation":"Lecturer ( Probationary )",
+    "email":"mevuni@btec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"248",
+    "img": "./assets/uni/Ms.mevuni.jpg",
+    "page": ""
+  },
+  {
+    "name":"Ms. W. H. N. Y. Hewage",
+    "designation":"Lecturer ( Probationary )",
+    "email":"yumalibandara@btec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"247",
+    "img": "./assets/uni/Ms.yumali.jpg",
+    "page": ""
+  }
+]

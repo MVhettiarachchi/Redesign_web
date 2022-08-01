@@ -1,0 +1,38 @@
+[
+  {
+    "name":"Dr. K. G .S. Harshadewa Gunawardana",
+    "designation":"Senior Lecturer",
+    "email":"head@mstec.ruh.ac.lk / dean@tec.ruh.ac.lk",
+    "contactNo":"041 - 2294750",
+    "intercomNo":"201",
+    "img": "./assets/uni/DrHarsha.jpg",
+    "page": "./PersonalProf_ET/drHarshadewa.html"
+  },
+  {
+    "name":"Ms. K. K. N. B. Adikaram",
+    "designation":"Lecturer ( Probationary )",
+    "email":"nilanthi@mstec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"253",
+    "img": "./assets/uni/MsNilanthi.jpg",
+    "page": ""
+  },
+  {
+    "name":"Ms. H. M. Navoda N. Herath",
+    "designation":"Lecturer ( Probationary )",
+    "email":"navodanherath@mstec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/Ms.Navoda.jpg",
+    "page": ""
+  },
+  {
+    "name":"Ms. Ishanka K. Dias",
+    "designation":"Lecturer ( Probationary )",
+    "email":"ishanka@mstec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"252",
+    "img": "./assets/uni/Ms.Ishanka.jpg",
+    "page": "./PersonalProf_MDS/Msishanka.html"
+  }
+]

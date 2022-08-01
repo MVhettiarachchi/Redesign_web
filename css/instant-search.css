@@ -1,0 +1,67 @@
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#charactersList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 35px;
+}
+
+.character {
+    list-style-type: none;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    /*padding: 10px 20px;*/
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas:
+        'name image'
+        'designation image'
+        'email image'
+        'contactNo image';
+    text-align: left;
+}
+
+.character > h2 {
+    font-size:25px;
+    grid-area: name;
+    margin-bottom: 15px;
+
+}
+
+.character > p {
+    font-size:15px;
+    margin-top:-20px;
+    margin-left:10px
+}
+
+.character > img {
+    max-height: 150px;
+    grid-area: image;
+    width:150px;
+}
+
+#searchBar {
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#searchWrapper {
+    position: relative;
+}
+
+#searchWrapper::after {
+    content: '🔍';
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}

@@ -1,0 +1,623 @@
+/*-----------------page content------------------------*/
+
+/*-----------------main content------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Lato',Helvetica Neue,Arial,Sans-serif;
+    font-size: 20px;
+    color: #008080;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:black;
+
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+
+.newsAndEvents {
+	margin-top:200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 1070px;
+    background-color: white;
+}
+
+.column .header {
+    min-height: 15vh;
+
+}
+
+.column .header h2{
+    font-size:20px;
+}
+
+.column .header  p{
+     font-size:18px;
+}
+
+.column img {
+    width: 305px;
+}
+
+.newsAndEvents .belowContent{
+    margin-top:-700px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-box {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+.past-btn-box{
+    display: inline;
+
+}
+
+.btn-box button,
+.past-btn-box button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+
+}
+
+.btn-box .fa , .btn-box .fas,
+.past-btn-box .fa, .past-btn-box .fas{
+    margin-right: 20px ;
+}
+
+.btn-box button:hover .fa ,
+.btn-box button:hover .fas ,
+.btn-box button:hover,
+.past-btn-box button:hover .fa ,
+.past-btn-box button:hover .fas ,
+.past-btn-box button:hover{
+    color: #008080;
+}
+
+
+.linkList .linkItem{
+    font-size: 19px;
+    line-height: 160%;
+    font-weight: 120%;
+    color: #008080;
+}
+
+.linkList .linkItem::before {
+    content: "•  ";
+    color: #008080;
+}
+
+.linkList .linkItem:hover {
+    color: black;
+
+}
+
+.linkList .linkItem:hover::before {
+    content: "•  ";
+    color: black;
+}
+
+
+.tabContent{
+    border: 1px solid #e6ffff;
+    background-color: #e6ffff;
+    margin-left: -100px;
+    margin-right: -100px;
+
+}
+
+.newsAndEvents .tabContent p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #008080;
+
+}
+
+/*---------x--------page content-----------x-------------*/
+
+@media only screen and (min-width: 10px){
+     .tabContent{
+        margin-top:-160px;
+     }
+
+     .tabContent p{
+        font-size:3px;
+     }
+	.newsAndEvents{
+		margin-top:300px;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:70px;
+	}
+
+	.newsAndEventsh2{
+		font-size:15px;
+	}
+
+	.newsAndEvents p{
+		font-size:12px;
+	}
+
+	.newsAndEvents h1{
+		font-size:12px;
+	}
+
+	.newsAndEvents hr{
+		margin-top:10px;
+	}
+
+}
+
+@media only screen and (min-width: 320px){
+	.past-btn-box{
+		line-height:52px;
+
+	}
+	 .column .header h2{
+		 font-size:10px;
+	 }
+
+	 .firstColumn .header{
+		 margin-top:-80px;
+	 }
+
+	 .column img{
+		 margin-top:-55px;
+	 }
+
+     .newsAndEvents .tabContent{
+        margin-top:-130px;
+     }
+
+     .newsAndEvents .tabContent p{
+        font-size:10px;
+     }
+	.newsAndEvents{
+		margin-top:300px;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:70px;
+	}
+
+	.newsAndEvents h2{
+		font-size:15px;
+	}
+
+	.newsAndEvents p{
+		font-size:12px;
+	}
+
+	.newsAndEvents h1{
+		font-size:12px;
+	}
+
+	.newsAndEvents hr{
+		margin-top:10px;
+	}
+
+	 .tab p{
+	   font-size:10px;
+   }
+
+   .linkList .linkItem {
+	   font-size:12px;
+
+	}
+
+	.btn-box{
+		font-size:10px;
+		margin-top:-35px;
+	}
+
+}
+
+@media only screen and (min-width: 360px){
+     .newsAndEvents .tabContent{
+        margin-top:-70px;
+     }
+
+	 .newsAndEvents .tabContent p{
+        font-size:10px;
+     }
+
+	.newsAndEvents{
+		margin-top:250px;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:50px;
+	}
+
+    .newsAndEvents h2{
+		  font-size:15px;
+	}
+
+	.newsAndEvents p{
+			font-size:12px;
+	}
+
+	.newsAndEvents h1{
+			font-size:13px;
+	}
+
+	.newsAndEvents hr{
+			margin-top:10px;
+	}
+
+	.column .header h2{
+		font-size:13px;
+	}
+
+	.firstColumn .header{
+		margin-top:-40px;
+	}
+
+	.linkList .linkItem {
+
+		font-size:12px;
+	}
+
+	.column img{
+		margin-top:-40px;
+	}
+
+	.firstColumn .header{
+		margin-top:-60px;
+	}
+
+
+}
+
+@media only screen and (min-width: 370px){
+	.newsAndEvents .tabContent{
+		margin-top:-30px;
+	}
+
+}
+
+@media only screen and (min-width: 400px){
+     .newsAndEvents .tabContent{
+        margin-top:200px;
+     }
+
+     .newsAndEvents .tabContent p{
+        font-size:12px;
+     }
+
+	.newsAndEvents{
+		margin-top:190px;
+		margin-left:40px;
+		margin-right:40px;
+		margin-bottom:75px;
+	}
+
+	.newsAndEvents h2{
+		font-size:18px;
+	}
+
+	.newsAndEvents h1{
+		font-size:15px;
+	}
+
+}
+
+@media only screen and (min-width: 700px){
+    .newsAndEvents .tabContent{
+        margin-top:300px;
+    }
+
+	.newsAndEvents h2{
+	 font-size:18px;
+	}
+
+	.newsAndEvents h1{
+	 font-size:18px;
+	}
+
+
+	.newsAndEvents p{
+	 font-size:15px;
+	}
+
+	.firstColumn .header {
+		margin-top:-40px;
+	}
+
+	.column img{
+		margin-top:-120px;
+		margin-left:160px;
+	}
+
+    .row .column p{
+		margin-top:100px;
+	}
+
+	.btn-box{
+		margin-top:10px;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+    .wrapper {
+        margin-top: -250px;
+    }
+    .right{
+        margin-top:-120px;
+    }
+
+   .newsAndEvents .tabContent{
+	   margin-top:150px;
+   }
+}
+
+/*@media only screen and (min-width: 800px){
+     .tabContent{
+         margin-top:-50px;
+     }
+
+}*/
+
+
+@media only screen and (min-width: 900px){
+   .newsAndEvents .belowContent{
+     margin-top:200px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1000px){
+
+	.newsAndEvents{
+		margin-top:235px;
+		margin-left:60px;
+		margin-right:60px;
+		margin-bottom:100px;
+	}
+
+    .tabContent{
+        margin-top:-100px;
+     }
+
+
+}
+
+@media only screen and (min-width: 1200px){
+	.newsAndEvents .belowContent{
+		margin-top:700px;
+	}
+
+	.newsAndEvents{
+		margin-top:200px;
+		margin-left:100px;
+		margin-right:100px;
+		margin-bottom:130px;
+	}
+
+	.tab .text p{
+		margin-top: 20px;
+	}
+
+	.newsAndEvents h2{
+	 font-size:34px;
+	}
+
+	.newsAndEvents h1{
+	 font-size:25px;
+	}
+
+	.newsAndEvents p{
+	 font-size:20px;
+	}
+
+	.newsAndEvents .tabContent{
+	    margin-top:215px;
+
+	}
+
+	.newsAndEvents .tabContent p{
+	    font-size:15px;
+	}
+
+	.column img{
+		margin-left:-10px;
+		margin-top:-60px;
+	}
+
+	.firstColumn .header{
+		margin-top:10px;
+	}
+
+	.btn-box{
+		margin-top:10px;
+	}
+
+}
+
+@media only screen and (min-width: 1300px){
+	.tabContent{
+         margin-top:160px;
+     }
+   .wrapper{
+	   margin-top:-200px;
+   }
+
+   .wrapper .right{
+	   margin-top:100px;
+   }
+
+   .wrapper .left{
+	   margin-top:120px;
+   }
+
+
+   .wrapper .left h1{
+	   font-size:20px;
+   }
+
+    .newsAndEvents{
+		margin-top:160px;
+		margin-left:100px;
+		margin-right:100px;
+		margin-bottom:150px;
+	}
+	.newsAndEvents h2{
+	    font-size:34px;
+	}
+	.newsAndEvents h1{
+	    font-size:25px;
+	}
+
+	.newsAndEvents p{
+	    font-size:16px;
+	}
+
+    .tab .btn-group{
+        margin-top:55px;
+
+    }
+
+	.text .btn{
+		margin-left:-20px;
+	}
+
+	.newsAndEvents .tabContent{
+		margin-top:180px;
+	}
+
+	.newsAndEvents .tabContent p{
+		font-size:17px;
+	}
+
+	.column img{
+		margin-top:-60px;
+		margin-left:-10px;
+	}
+
+	.past-btn-box button{
+		margin-left:400px;
+	}
+
+	.linkList .linkItem li{
+		margin-top:60px;
+	}
+	.btn-box{
+		margin-top:20px;
+	}
+
+	.newsAndEvents .belowContent{
+		margin-top:100px;
+	}
+
+	.past-btn-box{
+		margin-left:-340px;
+	}
+
+	.linkList .linkItem{
+		margin-left:100px;
+	}
+
+
+}
+
+@media only screen and (min-width: 1400px){
+    .newsAndEvents .tabContent{
+        margin-top:50px;
+    }
+
+	.newsAndEvents .tabContent{
+	    margin-top:200px;
+	}
+
+	.newsAndEvents .tabContent p{
+	   font-size:20px;
+	}
+
+
+   .newsAndEvents .belowContent{
+        margin-top:150px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1260px) {
+  .column {
+    width: 100%;
+    margin-top:-600px;
+
+  }
+  .column p{
+      margin-top: 0px;
+  }
+
+  .firstColumn{
+    margin-top:60px;
+  }
+   .lastColumn{
+        height:20vh;
+  }
+
+   .newsAndEvents .belowContent{
+    margin-top:-800px;
+  }
+
+}
+
+@media screen and (min-width: 1900px) {
+
+	.newsAndEvents .tabContent{
+	    margin-top:230px;
+	}
+
+	.newsAndEvents .belowContent{
+		margin-top:-400px;
+  }
+
+  .tabContent{
+	    margin-top:200px;
+	}
+
+   .column img{
+	   margin-top:-120px;
+	   margin-left:50px;
+   }
+
+
+}

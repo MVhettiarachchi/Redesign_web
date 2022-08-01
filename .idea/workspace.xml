@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/css/personalProfile.css" line="8" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c25a0be5-6be9-4434-9af0-06c0e0a80614" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Faculty_site/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Faculty_site/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Abract01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/blog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/blog4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/Blog-post/post-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/instagram/thumb-card8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/popular-post/m-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/popular-post/m-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/popular-post/m-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/popular-post/m-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/assets/popular-post/m-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Faculty_site/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculty_site/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Faculty_site/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Abract01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/blog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/blog4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Blog-post/post-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/instagram/thumb-card8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/popular-post/m-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/popular-post/m-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/popular-post/m-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/popular-post/m-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/popular-post/m-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Academic_staff_MDS.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="215" column="37" selection-start-line="215" selection-start-column="37" selection-end-line="215" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="86" selection-start-line="85" selection-start-column="11" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Academic_staff_ICT.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="215" selection-start-line="215" selection-end-line="215" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mdsdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>drop</find>
+      <find>btn-group</find>
+      <find>320p</find>
+      <find>content-table</find>
+      <find>top</find>
+      <find>320</find>
+      <find>my</find>
+      <find>dropbtn</find>
+      <find>dropdown</find>
+      <find>myFu</find>
+      <find>tab</find>
+      <find>image</find>
+      <find>msra</find>
+      <find>slide</find>
+      <find>foo</find>
+      <find>b</find>
+      <find>btn</find>
+      <find>p</find>
+      <find>profContent</find>
+      <find>slider-tr</find>
+      <find>wath</find>
+      <find>toggle-text-button</find>
+      <find>height</find>
+      <find>ACC</find>
+      <find>main</find>
+      <find>searchInput</find>
+      <find>searchIcon</find>
+      <find>characters</find>
+      <find>character</find>
+      <find>hpCharacters</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/degree.html" />
+        <option value="$PROJECT_DIR$/dep_BST.html" />
+        <option value="$PROJECT_DIR$/dep_ET.html" />
+        <option value="$PROJECT_DIR$/dep_MDS.html" />
+        <option value="$PROJECT_DIR$/department1.html" />
+        <option value="$PROJECT_DIR$/industry.html" />
+        <option value="$PROJECT_DIR$/newsAndEvents.html" />
+        <option value="$PROJECT_DIR$/newsfirst.html" />
+        <option value="$PROJECT_DIR$/Non_academic_staff_ MDS.html" />
+        <option value="$PROJECT_DIR$/Non_academic_staff_BST.html" />
+        <option value="$PROJECT_DIR$/Non_academic_staff_ICT.html" />
+        <option value="$PROJECT_DIR$/research.html" />
+        <option value="$PROJECT_DIR$/Temporary_academic_staff_BST.html" />
+        <option value="$PROJECT_DIR$/Temporary_academic_staff_ET.html" />
+        <option value="$PROJECT_DIR$/Temporary_academic_staff_ICT.html" />
+        <option value="$PROJECT_DIR$/Vacancies.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_BST/Profchandana.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_BST/Msjayaweera.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_BST/Drwathsala.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/drHarshadewa.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/drVitharana.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/mrUditha.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/drAjward.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/drSanjaya.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/mrsGayani.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/msHasini.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ET/mrMilinda.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/drSubash.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msSewwandi.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/mrNuwan.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msDinithi.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msIromi.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msJayani.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msRavihari.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_ICT/msWaruni.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/PersonalProf_MDS/Msishanka.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/css/instant-search.css" />
+        <option value="$PROJECT_DIR$/jsonFiles/ictdata.json" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/ictdata.json" />
+        <option value="$PROJECT_DIR$/Academic_staff_ET.html" />
+        <option value="$PROJECT_DIR$/etdata.json" />
+        <option value="$PROJECT_DIR$/Academic_staff_BST.html" />
+        <option value="$PROJECT_DIR$/bstdata.json" />
+        <option value="$PROJECT_DIR$/mdsdata.json" />
+        <option value="$PROJECT_DIR$/Academic_staff_MDS.html" />
+        <option value="$PROJECT_DIR$/Academic_staff_ICT.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/responsive site.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="responsive site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="responsive site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive site" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="responsive site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive site" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonalProf_ET" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="responsive site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive site" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonalProf_MDS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Properties" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FINAL\responsive site\jsonFiles" />
+      <recent name="D:\FINAL\responsive site\js" />
+      <recent name="D:\FINAL\responsive site\Dep_ICT" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c25a0be5-6be9-4434-9af0-06c0e0a80614" name="Default Changelist" comment="" />
+      <created>1605429153289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605429153289</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11610738" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dep_BST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dep_ET.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dep_MDS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="115" selection-start-line="47" selection-start-column="115" selection-end-line="47" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsAndEvents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsfirst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Non_academic_staff_BST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Non_academic_staff_ICT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temporary_academic_staff_BST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temporary_academic_staff_ET.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/research.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temporary_academic_staff_ICT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vacancies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Non_academic_staff_ MDS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/mrKumara.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/mrSubasinghe.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_BST/Drwathsala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="94" column="85" selection-start-line="94" selection-start-column="85" selection-end-line="94" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_BST/Profchandana.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="144" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/drAjward.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/drHarshadewa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/drSanjaya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="95" column="87" selection-start-line="95" selection-start-column="87" selection-end-line="95" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/drVitharana.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/mrsGayani.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="94" column="83" selection-start-line="94" selection-start-column="83" selection-end-line="94" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/mrUditha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/msHasini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="95" column="76" selection-start-line="95" selection-start-column="76" selection-end-line="95" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ET/mrMilinda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/drSubash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="94" column="140" selection-start-line="94" selection-start-column="140" selection-end-line="94" selection-end-column="140" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/mrNuwan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="95" column="76" selection-start-line="95" selection-start-column="76" selection-end-line="95" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msDinithi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="95" column="81" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msIromi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msJayani.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="95" column="76" selection-start-line="95" selection-start-column="76" selection-end-line="95" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msRavihari.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="95" column="80" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msSewwandi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="95" column="140" selection-start-line="95" selection-start-column="140" selection-end-line="95" selection-end-column="140" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_ICT/msWaruni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="95" column="76" selection-start-line="95" selection-start-column="76" selection-end-line="95" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_BST/Msjayaweera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="72" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="144" column="30" lean-forward="true" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#article#0;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#article#1;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#article#2;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonalProf_MDS/Msishanka.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonFiles/ictdata.json" />
+    <entry file="file://$PROJECT_DIR$/search.html" />
+    <entry file="file://$PROJECT_DIR$/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/css/instant-search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ictdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Academic_staff_ET.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="233" column="71" selection-start-line="233" selection-start-column="59" selection-end-line="233" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bstdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Academic_staff_BST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="230" column="60" lean-forward="true" selection-start-line="230" selection-start-column="60" selection-end-line="230" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdsdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Academic_staff_MDS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="215" column="37" selection-start-line="215" selection-start-column="37" selection-end-line="215" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="86" selection-start-line="85" selection-start-column="11" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Academic_staff_ICT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="215" selection-start-line="215" selection-end-line="215" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

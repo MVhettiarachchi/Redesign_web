@@ -1,0 +1,92 @@
+[
+  {
+    "name":"Dr. B. L. Sanjaya Thilakarathne",
+    "designation":"Senior Lecturer Gr.II",
+    "email":"sanjaya@etec.ruh.ac.lk",
+    "contactNo":"041 - 2294748",
+    "intercomNo":"263",
+    "img": "./assets/uni/DrSanjaya.png",
+    "page": "./PersonalProf_ET/drSanjaya.html"
+  },
+  {
+    "name":"Dr. K. G. S. Harshadewa Gunawardana",
+    "designation":"Senior Lecturer Gr.II",
+    "email":"harshadewa@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"201",
+    "img": "./assets/uni/DrHarsha.jpg",
+    "page": "./PersonalProf_ET/drHarshadewa.html"
+  },
+  {
+    "name":"Dr. A. M. Ajward",
+    "designation":"Senior Lecturer Gr.II",
+    "email":"ajward@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"262",
+    "img": "./assets/uni/DrAjward.png",
+    "page": "./PersonalProf_ET/drAjward.html"
+  },
+  {
+    "name":"Dr. V. H. P. Vitharana",
+    "designation":"Senior Lecturer Gr.II",
+    "email":"hashini@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/DrHashini.jpg",
+    "page": "./PersonalProf_ET/drVitharana.html"
+  },
+  {
+    "name":"Mrs. Gayani Chathurika Pathiraja",
+    "designation":"Lecturer ( Probationary )",
+    "email":"gayani@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MsGayani.png",
+    "page": "./PersonalProf_ET/msGayani.html"
+  },
+  {
+    "name":"Mr. E. A. D. Kumara",
+    "designation":"Lecturer ( Probationary )",
+    "email":"eadkumara@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MrDinesh.png",
+    "page": "./PersonalProf_ET/mrKumara.html"
+  },
+  {
+    "name":"Eng. Mr.H.G.T.Milinda",
+    "designation":"Lecturer (Probationary)",
+    "email":"milinda@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MrMilinda.jpg",
+    "page": "./PersonalProf_ET/mrMilinda.html"
+  },
+  {
+    "name":"Eng. Mr.H.L. Subasinghe",
+    "designation":"Lecturer (Probationary)",
+    "email":"",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/default-men.jpg",
+    "page": "./PersonalProf_ET/mrSubasinghe.html"
+  },
+  {
+    "name":"Eng. Mr.M.P. Uditha Isuranga",
+    "designation":"Lecturer (Probationary)",
+    "email":"uditha@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"",
+    "img": "./assets/uni/MrUditha.jpg",
+    "page": "./PersonalProf_ET/mrUditha.html"
+  },
+  {
+    "name":"Eng. Ms.Hasini Ganege",
+    "designation":"Lecturer (Probationary)",
+    "email":"hasiniganege@etec.ruh.ac.lk",
+    "contactNo":"",
+    "intercomNo":"261",
+    "img": "./assets/uni/MsHasini.jpg",
+    "page": "./PersonalProf_ET/msHasini.html"
+  }
+]
