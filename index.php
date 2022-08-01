@@ -73,14 +73,14 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="degree.html"> Bachelor of Engineering Technology Honours</a>
+                <a href="degree.php"> Bachelor of Engineering Technology Honours</a>
                   <a href="degree-ict.html">Bachelor of Information & Communication Technology Honours</a>
                 <a href="degree-bst.html">Bachelor of Biosystems Technology Honours</a>
              </div>
         </div>
         <a href="Vacancies.html">Vacancies</a>
         <a href="contact.php">Contact Us</a>
-        <!-- <a href="http://www.ruh.ac.lk/" target="_blank">University Home</a> -->
+       
  <?php if(isset($_SESSION['user_name'])){ ?>
  <div class="dropdown">
             <button class="dropbtn">My Profile
@@ -280,6 +280,11 @@
                 <h2 class="footerHeader">WELCOME</h2>
                 <div class="content">
                     <p class="welcome">Faculty of Technology is a leading faculty of University of Ruhuna in the region welcomes you to witness a truly unique experience!
+                    </p>
+                </div>
+                <h2 class="footerHeader">University of Ruhuna</h2>
+                <div class="content">
+                    <p class="uor"> <a href="http://www.ruh.ac.lk/" target="_blank">Click Here</a>
                     </p>
                 </div>
             </div>

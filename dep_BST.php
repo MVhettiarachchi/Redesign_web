@@ -125,6 +125,11 @@
                 <p class="welcome">Faculty of Technology is a leading faculty of University of Ruhuna in the region welcomes you to witness a truly unique experience!
                 </p>
             </div>
+            <h2 class="footerHeader">University of Ruhuna</h2>
+                <div class="content">
+                    <p class="uor"> <a href="http://www.ruh.ac.lk/" target="_blank">Click Here</a>
+                    </p>
+                </div>
         </div>
 
         <div class="center box" data-aos="fade-right" data-aos-delay="200">
